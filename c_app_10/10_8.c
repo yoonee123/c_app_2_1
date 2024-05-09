@@ -1,7 +1,7 @@
-// µÎ °³ÀÇ Æ÷ÀÎÅÍÀÇ ÀúÀå°ª(ÁÖ¼Ò)À» ¹Ù²ãÁÖ´Â swap2(   ,   )ÇÔ¼ö¸¦ ±¸ÇöÇÏ°í È£ÃâÇÏ¿© ÀûÀýÈ÷ ¹Ù²ñÀ» º¸ÀÌ½Ã¿À.
-// (Áï, Æ÷ÀÎÅÍ º¯¼ö¿¡ ÀúÀåµÈ ÁÖ¼Ò°ªÀ» ¼­·Î ¹Ù²Þ. 2Áß Æ÷ÀÎÅÍ ÇÊ¿äÇÔ)
+// ë‘ ê°œì˜ í¬ì¸í„°ì˜ ì €ìž¥ê°’(ì£¼ì†Œ)ì„ ë°”ê¿”ì£¼ëŠ” swap2(   ,   )í•¨ìˆ˜ë¥¼ êµ¬í˜„í•˜ê³  í˜¸ì¶œí•˜ì—¬ ì ì ˆížˆ ë°”ë€œì„ ë³´ì´ì‹œì˜¤.
+// (ì¦‰, í¬ì¸í„° ë³€ìˆ˜ì— ì €ìž¥ëœ ì£¼ì†Œê°’ì„ ì„œë¡œ ë°”ê¿ˆ. 2ì¤‘ í¬ì¸í„° í•„ìš”í•¨)
 #include <stdio.h>
-// µÎ °³ÀÇ Æ÷ÀÎÅÍ º¯¼öÀÇ ÀúÀå°ª(ÁÖ¼Ò)À» ¹Ù²ãÁÖ´Â ÇÔ¼ö
+// ë‘ ê°œì˜ í¬ì¸í„° ë³€ìˆ˜ì˜ ì €ìž¥ê°’(ì£¼ì†Œ)ì„ ë°”ê¿”ì£¼ëŠ” í•¨ìˆ˜
 void swap2(int** p1, int** p2) {
     int* temp = *p1;
     *p1 = *p2;
@@ -10,15 +10,10 @@ void swap2(int** p1, int** p2) {
 
 void main() {
     int a = 10, b = 3;
-
-    // Æ÷ÀÎÅÍ º¯¼ö ÃÊ±âÈ­
     int* num1 = &a;
     int* num2 = &b;
 
-    printf("±³È¯ Àü °ªÀº : %d, %d\n", *num1, *num2);
-
-    // µÎ °³ÀÇ Æ÷ÀÎÅÍ º¯¼öÀÇ ÀúÀå°ª(ÁÖ¼Ò)À» ¹Ù²Þ
+    printf("êµí™˜ ì „ ê°’ì€ : %d, %d\n", *num1, *num2);
     swap2(&num1, &num2);
-
-    printf("±³È¯ ÈÄÀÇ °ªÀº : %d, %d", *num1, *num2);
+    printf("êµí™˜ í›„ì˜ ê°’ì€ : %d, %d", *num1, *num2);
 }
