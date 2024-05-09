@@ -1,5 +1,4 @@
-// º¯¼ö a, b, c, d, e¿¡ °¢°¢ °ªÀÌ ÀúÀåµÇ¾î ÀÖ´Ù.Æ÷ÀÎÅÍ ¹è¿­À» ÀÌ¿ëÇÏ¿© ÀÌ Áß ÃÖ´ë°ªÀ» ±¸ÇÏ½Ã¿À.
-// ÇÑ ¹øÀº ¹è¿­¿¡¼­ ¿ä¼Ò¸¦ Ã£±â À§ÇØ, ´Ù¸¥ ÇÑ ¹øÀº ÇØ´ç ¿ä¼Ò°¡ °¡¸®Å°´Â º¯¼öÀÇ °ªÀ» °¡Á®¿À±â À§ÇØ¼­
+// ë³€ìˆ˜ a, b, c, d, eì— ê°ê° ê°’ì´ ì €ìž¥ë˜ì–´ ìžˆë‹¤.í¬ì¸í„° ë°°ì—´ì„ ì´ìš©í•˜ì—¬ ì´ ì¤‘ ìµœëŒ€ê°’ì„ êµ¬í•˜ì‹œì˜¤.
 #include <stdio.h>
 void main7()
 {
@@ -14,5 +13,5 @@ void main7()
 			max = *arr[i];
 		}
 	}
-	printf("ÃÖ´ñ °ªÀº : %d", max);
+	printf("ìµœëŒ“ ê°’ì€ : %d", max);
 }
