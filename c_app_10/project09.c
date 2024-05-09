@@ -12,5 +12,5 @@ void main() {
     *p = 200; // *p로 num2을 간접참조해 200으로 수정
     sum += *p; // sum에 *p값 200을 더함
 
-    printf("data1 : %d, data2 : %d, sum : %d\n", num1, num2, sum);
+    printf("num1 : %d, num2 : %d, sum : %d\n", num1, num2, sum);
 }
